@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "aziz-cloudflare",
+  "compatibility_date": "2026-11-06",
+  "assets": {
+    "directory": "./site"
+  },
+  "routes": [
+    { "pattern": "azizmoftah.com", "custom_domain": true },
+    { "pattern": "www.azizmoftah.com", "custom_domain": true }
+  ]
+}

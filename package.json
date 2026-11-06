@@ -1,0 +1,10 @@
+{
+  "name": "aziz-cloudflare",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "pdf": "node scripts/make-pdf.mjs",
+    "dev": "npm run build && npx wrangler dev"
+  }
+}
