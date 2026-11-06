@@ -1,0 +1,134 @@
+{
+  "site": {
+    "domain": "azizmoftah.com",
+    "pdf": "AbdElAziz-Moftah-CV.pdf"
+  },
+  "name": "AbdElAziz Moftah",
+  "title": "Senior Software Engineer",
+  "subtitle": "Distributed Systems & Performance-Critical Software · AWS Certified",
+  "location": "Saarbrücken, Germany",
+  "links": {
+    "linkedin": "https://linkedin.com/in/abdelazizmoftah",
+    "github": "https://github.com/notmoftah"
+  },
+  "pitch": "I build distributed, high-throughput systems that stay fast and consistent at scale.",
+  "summary": "Senior backend engineer specialising in distributed systems and performance-critical software. I design and run event-driven, serverless systems on AWS that handle millions of events a day with strong consistency and high throughput, after earlier years on payment platforms and logistics systems. I work mainly in Python and .NET, with a Java background, and care about reliable architecture, observability and clear technical decisions.",
+  "highlights": [
+    { "title": "Distributed Systems", "text": "Event-Driven, Serverless, Consistent" },
+    { "title": "Performance-Critical Software", "text": "High Throughput, Millions of Events" },
+    { "title": "Backend & APIs", "text": "Python, .NET, Java" },
+    { "title": "AWS & Solution Architecture", "text": "Serverless, Containers, IaC" }
+  ],
+  "experience": [
+    {
+      "role": "Senior Software Engineer",
+      "company": "Wemolo GmbH",
+      "period": "2025 – Present",
+      "location": "Munich, Germany · Remote",
+      "context": "Parking-technology scale-up that replaces barriers and sensors with camera-based, AI-driven monitoring, license-plate-recognition access and payment for retail, hospitals, hotels and municipalities across Germany, Switzerland, Austria, Italy and Poland.",
+      "bullets": [
+        "Part of the Operator Platform group; write and maintain the internal packages the whole engineering team builds its services on.",
+        "Handle millions of events daily in a distributed, serverless system on AWS, designing for consistency and high throughput.",
+        "Own architecture decisions for scalable, fault-tolerant, event-driven services and data pipelines built on Kafka.",
+        "Model and operate PostgreSQL and DynamoDB for transactional, session and analytics workloads."
+      ],
+      "stack": "AWS (ECS, Lambda), Python, .NET, PostgreSQL, DynamoDB, Kafka, Terraform"
+    },
+    {
+      "role": "Senior Software Engineer",
+      "company": "HelloFresh",
+      "period": "2023 – 2025",
+      "location": "Berlin, Germany · Remote",
+      "context": "Production Technology squad: backend systems that run order management and production control in distribution centers.",
+      "bullets": [
+        "Built backend services and tools that optimise production workflows, including box assembly, and real-time SKU inventory reporting across distribution centers.",
+        "Developed pipelines that publish production data to analytics consumers over Kafka and RabbitMQ.",
+        "Set up Grafana, Loki and Prometheus observability and ran services on Kubernetes with Jenkins CI/CD under high-throughput load."
+      ],
+      "stack": ".NET, Python, Kubernetes, Docker, Jenkins, SQL, Kafka, RabbitMQ, Grafana, Loki, Prometheus"
+    },
+    {
+      "role": "Software Engineer II",
+      "company": "Vodafone Cash",
+      "period": "2021 – 2023",
+      "location": "Cairo, Egypt · On-site",
+      "context": "Integration specialist on Egypt's largest e-wallet, a highly available, fault-tolerant platform processing millions of transactions daily.",
+      "bullets": [
+        "Built the VF-Cash middleware layer and backend logic serving the USSD, mobile app and web channels, and integrated third-party APIs and payment gateways.",
+        "Introduced DevOps practices and moved applications onto a private OpenShift cluster.",
+        "Contributed to a new scalable API gateway."
+      ],
+      "stack": "Java, Python, TIBCO BW5 / BW CE, OpenShift, Kubernetes, Docker, Jenkins, Oracle DB, Redis, Kafka, JMS, EMS"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        { "name": "Python", "primary": true },
+        { "name": "C# / .NET", "primary": true },
+        { "name": "Java" },
+        { "name": "SQL" }
+      ]
+    },
+    {
+      "group": "Frameworks & APIs",
+      "items": [
+        { "name": "ASP.NET Core", "primary": true },
+        { "name": "FastAPI", "primary": true },
+        { "name": "REST APIs", "primary": true },
+        { "name": "ServiceStack" },
+        { "name": "Socket Programming" }
+      ]
+    },
+    {
+      "group": "Architecture",
+      "items": [
+        { "name": "Distributed Systems", "primary": true },
+        { "name": "High-Throughput Systems", "primary": true },
+        { "name": "Event-Driven" },
+        { "name": "Serverless" },
+        { "name": "Microservices" },
+        { "name": "DDD" },
+        { "name": "TDD" }
+      ]
+    },
+    {
+      "group": "Cloud & DevOps",
+      "items": [
+        { "name": "AWS", "primary": true },
+        { "name": "ECS", "primary": true },
+        { "name": "Lambda", "primary": true },
+        { "name": "Terraform", "primary": true },
+        { "name": "Kubernetes", "primary": true },
+        { "name": "Docker", "primary": true },
+        { "name": "SQS / SNS" },
+        { "name": "Jenkins" },
+        { "name": "Grafana" },
+        { "name": "Loki" },
+        { "name": "Prometheus" }
+      ]
+    },
+    {
+      "group": "Data & Messaging",
+      "items": [
+        { "name": "PostgreSQL", "primary": true },
+        { "name": "DynamoDB", "primary": true },
+        { "name": "Kafka", "primary": true },
+        { "name": "RabbitMQ", "primary": true },
+        { "name": "Redis" },
+        { "name": "MySQL" },
+        { "name": "Oracle" },
+        { "name": "MongoDB" },
+        { "name": "JMS" }
+      ]
+    }
+  ],
+  "certifications": [
+    { "name": "AWS Certified Solutions Architect – Associate", "date": "Jan 2023" },
+    { "name": "AWS Certified Developer – Associate", "date": "Nov 2022" }
+  ],
+  "education": [
+    { "name": "B.Sc. Computer Engineering", "school": "Tanta University", "date": "Jul 2020" }
+  ]
+}
